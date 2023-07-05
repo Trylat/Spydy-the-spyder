@@ -1,0 +1,34 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://3hbmwjclpy8c"
+path="res://.godot/imported/Spydy leg section 1.png-b6b98194f2d6f0b41e74a2ce1a6ea3bc.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Sprites/Spydy/Spydy leg section 1.png"
+dest_files=["res://.godot/imported/Spydy leg section 1.png-b6b98194f2d6f0b41e74a2ce1a6ea3bc.ctex"]
+
+[params]
+
+compress/mode="Lossless"
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression="Disabled"
+compress/normal_map="Detect"
+compress/channel_pack=0
+mipmaps/generate=false
+mipmaps/limit=-1
+roughness/mode="Detect"
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to="VRAM Compressed"

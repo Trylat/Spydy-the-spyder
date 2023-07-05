@@ -1,0 +1,34 @@
+8db2ce95e1f7b3277aef7a937a21fe72
+::res://::1688521345
+icon.svg::CompressedTexture2D::8438142360732947346::1688353201::1688353209::1::::<><>::
+README.md::TextFile::-1::1688353352::0::1::::<><>::
+README.ru.md::TextFile::-1::1688353352::0::1::::<><>::
+spydy_leg.gd::GDScript::-1::1688520977::0::1::::<>Node2D<>::
+spydy_leg.tscn::PackedScene::1988283872314199895::1688521185::0::1::::<><>::res://spydy_leg.gd<>uid://186n043v68ra<>uid://c6qrcqrcjo7hk<>uid://3hbmwjclpy8c
+spydy_the_spyder.tscn::PackedScene::4224084966722507415::1688521186::0::1::::<><>::uid://blw086ftgu7eq<>uid://3le0lc71utrj
+::res://addons/::1688353352
+::res://addons/nklbdev.aseprite_importers/::1688353353
+aseprite_image_format_loader_extension.gd::GDScript::-1::1688353352::0::1::::<>ImageFormatLoaderExtension<>::
+common.gd::GDScript::-1::1688353352::0::1::::<>Object<>::
+editor_plugin.gd::GDScript::-1::1688353353::0::1::::<>EditorPlugin<>::
+icon.png::CompressedTexture2D::2503417493381309461::1688353353::1688353353::1::::<><>::
+plugin.cfg::TextFile::-1::1688353353::0::1::::<><>::
+::res://addons/nklbdev.aseprite_importers/editor_import_plugins/::1688353353
+animated_sprite_2d.gd::GDScript::-1::1688353352::0::1::::<><>::
+animated_sprite_3d.gd::GDScript::-1::1688353352::0::1::::<><>::
+sprite_2d.gd::GDScript::-1::1688353353::0::1::::<><>::
+sprite_3d.gd::GDScript::-1::1688353353::0::1::::<><>::
+sprite_frames.gd::GDScript::-1::1688353353::0::1::::<><>::
+texture_rect.gd::GDScript::-1::1688353353::0::1::::<><>::
+_animation_importer_base.gd::GDScript::-1::1688353352::0::1::::<><>::
+_importer_base.gd::GDScript::-1::1688353352::0::1::::<>EditorImportPlugin<>::
+::res://Sprites/::1688353447
+::res://Sprites/Spydy/::1688353447
+Soydy leg 3.aseprite::PackedScene::5852071068475064899::1688353443::1688353447::1::::<><>::uid://186n043v68ra
+Soydy leg 3.png::CompressedTexture2D::1894941201753932366::1688353447::1688353447::1::::<><>::
+spydy body.aseprite::PackedScene::2998999399123215504::1688353443::1688353447::1::::<><>::uid://blw086ftgu7eq
+spydy body.png::CompressedTexture2D::3205492767138786360::1688353447::1688353447::1::::<><>::
+Spydy leg 2.aseprite::PackedScene::6372582408285045011::1688353443::1688353447::1::::<><>::uid://c6qrcqrcjo7hk
+Spydy leg 2.png::CompressedTexture2D::6982762191433764856::1688353447::1688353447::1::::<><>::
+Spydy leg section 1.aseprite::PackedScene::416125725103072825::1688353443::1688353447::1::::<><>::uid://3hbmwjclpy8c
+Spydy leg section 1.png::CompressedTexture2D::1979821582186082284::1688353447::1688353447::1::::<><>::

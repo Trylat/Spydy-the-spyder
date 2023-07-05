@@ -1,0 +1,40 @@
+[gd_scene load_steps=5 format=3 uid="uid://3le0lc71utrj"]
+
+[ext_resource type="Script" path="res://spydy_leg.gd" id="1_852vt"]
+[ext_resource type="Texture2D" uid="uid://186n043v68ra" path="res://Sprites/Spydy/Soydy leg 3.png" id="1_egn7t"]
+[ext_resource type="Texture2D" uid="uid://c6qrcqrcjo7hk" path="res://Sprites/Spydy/Spydy leg 2.png" id="2_02r2x"]
+[ext_resource type="Texture2D" uid="uid://3hbmwjclpy8c" path="res://Sprites/Spydy/Spydy leg section 1.png" id="3_xwbh0"]
+
+[node name="Spydy leg" type="Node2D"]
+script = ExtResource("1_852vt")
+
+[node name="join0" type="Node2D" parent="."]
+
+[node name="Sprite" type="Sprite2D" parent="join0"]
+position = Vector2(16, -2)
+rotation = 1.5708
+scale = Vector2(0.970098, 1.01866)
+texture = ExtResource("1_egn7t")
+
+[node name="join1" type="Node2D" parent="join0"]
+position = Vector2(33, 1)
+
+[node name="Sprite" type="Sprite2D" parent="join0/join1"]
+position = Vector2(16, 0)
+rotation = 1.5708
+texture = ExtResource("2_02r2x")
+
+[node name="join2" type="Node2D" parent="join0/join1"]
+position = Vector2(33, 0)
+
+[node name="Sprite" type="Sprite2D" parent="join0/join1/join2"]
+position = Vector2(24, 3)
+rotation = 3.14159
+texture = ExtResource("3_xwbh0")
+
+[node name="tip" type="Node2D" parent="join0/join1/join2"]
+position = Vector2(51, 0)
+rotation = -0.0532355
+
+[node name="Marker2D" type="Marker2D" parent="join0/join1/join2/tip"]
+position = Vector2(-1.52588e-05, 0)

@@ -1,0 +1,34 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://blw086ftgu7eq"
+path="res://.godot/imported/spydy body.png-9d00a0b10d1b4ba2953662a0396447b7.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Sprites/Spydy/spydy body.png"
+dest_files=["res://.godot/imported/spydy body.png-9d00a0b10d1b4ba2953662a0396447b7.ctex"]
+
+[params]
+
+compress/mode="Lossless"
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression="Disabled"
+compress/normal_map="Detect"
+compress/channel_pack=0
+mipmaps/generate=false
+mipmaps/limit=-1
+roughness/mode="Detect"
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to="VRAM Compressed"
