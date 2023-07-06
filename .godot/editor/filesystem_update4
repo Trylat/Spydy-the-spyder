@@ -1,3 +1,5 @@
-res://spydy_leg.tscn
-res://spydy_leg.gd
 res://spydy_the_spyder.tscn
+res://spydy_leg.gd
+res://spydy_the_spyder_controler.gd
+res://spydy_leg.tscn
+res://word.tscn

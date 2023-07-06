@@ -1,0 +1,89 @@
+[gd_scene load_steps=6 format=3 uid="uid://dtd3epm8cliph"]
+
+[ext_resource type="Texture2D" uid="uid://dshq8bpyqg4qo" path="res://icon.svg" id="1_71lmj"]
+[ext_resource type="PackedScene" uid="uid://b1ggcd75dx0w6" path="res://spydy_the_spyder.tscn" id="2_kbx71"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_su4g4"]
+size = Vector2(129.026, 130.982)
+
+[sub_resource type="SphereMesh" id="SphereMesh_1rx3j"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_81o30"]
+
+[node name="Word" type="Node"]
+
+[node name="BLOCK" type="StaticBody2D" parent="."]
+position = Vector2(323, 511)
+scale = Vector2(3.94495, 1.44157)
+
+[node name="Icon" type="Sprite2D" parent="BLOCK"]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(-1, -2)
+texture = ExtResource("1_71lmj")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BLOCK"]
+position = Vector2(-1.1407, -2.4908)
+scale = Vector2(0.993804, -0.96825)
+shape = SubResource("RectangleShape2D_su4g4")
+
+[node name="BLOCK2" type="StaticBody2D" parent="."]
+position = Vector2(791, 546)
+scale = Vector2(3.94495, 1.44157)
+
+[node name="Icon" type="Sprite2D" parent="BLOCK2"]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(-1, -2)
+texture = ExtResource("1_71lmj")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BLOCK2"]
+position = Vector2(-1.1407, -2.4908)
+scale = Vector2(0.993804, -0.96825)
+shape = SubResource("RectangleShape2D_su4g4")
+
+[node name="BLOCK3" type="StaticBody2D" parent="."]
+position = Vector2(1251, 517)
+scale = Vector2(3.94495, 1.44157)
+
+[node name="Icon" type="Sprite2D" parent="BLOCK3"]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(-1, -2)
+texture = ExtResource("1_71lmj")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BLOCK3"]
+position = Vector2(-1.1407, -2.4908)
+scale = Vector2(0.993804, -0.96825)
+shape = SubResource("RectangleShape2D_su4g4")
+
+[node name="BLOCK4" type="StaticBody2D" parent="."]
+position = Vector2(14, 491)
+scale = Vector2(3.94495, 1.44157)
+
+[node name="Icon" type="Sprite2D" parent="BLOCK4"]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(-1, -2)
+texture = ExtResource("1_71lmj")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BLOCK4"]
+position = Vector2(-1.1407, -2.4908)
+scale = Vector2(0.993804, -0.96825)
+shape = SubResource("RectangleShape2D_su4g4")
+
+[node name="BLOCK5" type="StaticBody2D" parent="."]
+position = Vector2(622, 452)
+scale = Vector2(3.94495, 1.44157)
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="BLOCK5"]
+position = Vector2(0.760468, 0.693665)
+rotation = 3.14159
+scale = Vector2(64.2153, -129.958)
+mesh = SubResource("SphereMesh_1rx3j")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BLOCK5"]
+position = Vector2(0.760468, 0.693665)
+scale = Vector2(-3.22151, -6.41176)
+shape = SubResource("CircleShape2D_81o30")
+one_way_collision_margin = 8.0
+
+[node name="Spydy the spyder" parent="." instance=ExtResource("2_kbx71")]
+position = Vector2(20, 359)
+scale = Vector2(1.02296, 0.942547)

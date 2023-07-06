@@ -1,11 +1,16 @@
-8db2ce95e1f7b3277aef7a937a21fe72
-::res://::1688521345
+cffcf7cc5eb03ca20a5c49cce30ef619
+::res://::1688674174
 icon.svg::CompressedTexture2D::8438142360732947346::1688353201::1688353209::1::::<><>::
-README.md::TextFile::-1::1688353352::0::1::::<><>::
+IkTarget.gd::GDScript::-1::1688671750::0::1::::<>Marker2D<>::
+README.md::TextFile::-1::1688524644::0::1::::<><>::
 README.ru.md::TextFile::-1::1688353352::0::1::::<><>::
-spydy_leg.gd::GDScript::-1::1688520977::0::1::::<>Node2D<>::
-spydy_leg.tscn::PackedScene::1988283872314199895::1688521185::0::1::::<><>::res://spydy_leg.gd<>uid://186n043v68ra<>uid://c6qrcqrcjo7hk<>uid://3hbmwjclpy8c
-spydy_the_spyder.tscn::PackedScene::4224084966722507415::1688521186::0::1::::<><>::uid://blw086ftgu7eq<>uid://3le0lc71utrj
+spydy_leg.gd::GDScript::-1::1688671472::0::1::::<>Node2D<>::
+spydy_leg.tscn::PackedScene::1988283872314199895::1688673808::0::1::::<><>::res://spydy_leg.gd<>uid://186n043v68ra::::res://Sprites/Spydy/Soydy leg 3.png<>uid://c6qrcqrcjo7hk::::res://Sprites/Spydy/Spydy leg 2.png<>uid://3hbmwjclpy8c::::res://Sprites/Spydy/Spydy leg section 1.png
+spydy_the_spyder.tscn::PackedScene::4224084966722507415::1688673808::0::1::::<><>::uid://blw086ftgu7eq::::res://Sprites/Spydy/spydy body.png<>res://spydy_the_spyder_controler.gd<>uid://3le0lc71utrj::::res://spydy_leg.tscn<>res://StepTargetOnRayCast.gd<>res://IkTarget.gd<>uid://dshq8bpyqg4qo::::res://icon.svg<>res://StepTargetContainer.gd
+spydy_the_spyder_controler.gd::GDScript::-1::1688672000::0::1::::<>Node2D<>::
+StepTargetContainer.gd::GDScript::-1::1688669709::0::1::::<>Node2D<>::
+StepTargetOnRayCast.gd::GDScript::-1::1688664332::0::1::::<>RayCast2D<>::
+word.tscn::PackedScene::8500751240327567293::1688673808::0::1::::<><>::uid://dshq8bpyqg4qo::::res://icon.svg<>uid://b1ggcd75dx0w6::::res://spydy_the_spyder.tscn
 ::res://addons/::1688353352
 ::res://addons/nklbdev.aseprite_importers/::1688353353
 aseprite_image_format_loader_extension.gd::GDScript::-1::1688353352::0::1::::<>ImageFormatLoaderExtension<>::

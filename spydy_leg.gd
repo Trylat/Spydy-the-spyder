@@ -2,7 +2,7 @@
 
 extends Node2D
 
-const min_dist = 50
+const min_dist = 30
 
 @onready var join0 = $join0
 @onready var join1 = $join0/join1
